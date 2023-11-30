@@ -15,7 +15,7 @@ Welcome to the Task Manager App! This application helps you organize your tasks 
 - **Task Creation**: Easily add new tasks with a simple click. ➕
 - **Task Deletion**: Remove completed tasks effortlessly. 🗑️
 - **Task Editing**: Update and modify existing tasks with ease. ✏️
-- **Task Filtering**: Filter tasks by status (completed, pending, etc.). 🔍
+- **Task Filtering**: Filter tasks by status (priority, date, time.). 🔍
 - **Local Storage**: Save tasks locally for persistence across sessions. 🔄
 - **See Task List**: View and manage your tasks with a clear and organized task list. 👀
 - **Responsive Design**: Access your tasks on any device. 📱
