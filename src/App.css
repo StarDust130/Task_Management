@@ -1,0 +1,98 @@
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #1cd8d2 0%,
+    #93edc7 51%,
+    #1cd8d2 100%
+  );
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; 
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav {
+  background: linear-gradient(
+    to right,
+    #44a7ed 0%,
+    #12d8fa 51%,
+    #1fa2ff 100%
+  );
+
+
+  width: max-content;
+  display: block;
+  padding: 0.7rem 1.7rem;
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2rem;
+  display: flex;
+  gap: 0.8rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
+}
+nav a {
+  background: transparent;
+  padding: 0.9rem;
+  border-radius: 50%;
+  display: flex;
+  color: var(--color-light);
+  font-size: 1.1rem;
+}
+nav a:hover {
+  background-position: right center;
+  text-decoration: none;
+  background: rgb(8, 155, 241);
+}
+nav .active {
+  background: rgb(8, 155, 241);
+}
+
+.tooltip-container {
+  @apply relative text-center;
+
+  &:hover .tooltiptext {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.tooltiptext {
+  @apply absolute bg-gray-800 text-white text-xs px-2 py-1 rounded-md opacity-0 invisible transition-opacity duration-300 ease-in-out bottom-full left-1/2 transform -translate-x-1/2;
+}
+
+
+/* EditTask.css */
+.success-message {
+  max-width: 200px; /* Adjust the max-width as needed */
+  background-color: rgb(0, 217, 255); 
+  color: white; /* White text */
+  padding: 0.5em; /* Padding */
+  margin-top: 0.5em; /* Margin from the top */
+  border-radius: 8px; /* Rounded corners */
+  animation: fadeIn 1.5s ease-out; /* Animation */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
