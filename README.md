@@ -32,7 +32,7 @@ Welcome to the Task Manager App! This application helps you organize your tasks 
   <li>Clone this repository:</li>
 </ol>
 
-<pre><code>git clone https://github.com/your-username/task-manager-app.git</code></pre>
+<pre><code>git clone https://github.com/StarDust130/Task_Management.git</code></pre>
 
 <ol start="2">
   <li>Install dependencies:</li>
