@@ -12,6 +12,7 @@ Welcome to the Task Manager App! This application helps you organize your tasks 
 
 ## Features 🌈
 
+
 - **Task Creation**: Easily add new tasks with a simple click. ➕
 - **Task Deletion**: Remove completed tasks effortlessly. 🗑️
 - **Task Editing**: Update and modify existing tasks with ease. ✏️
