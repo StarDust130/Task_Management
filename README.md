@@ -1,8 +1,4 @@
 
-<p align="center">
-  <img src="/src/assets/ss.png" alt="" width="200"/>
-</p>
-
 # 🚀 Task Manager App 📝✨
 
 
